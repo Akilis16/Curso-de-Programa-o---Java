@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class retangulo{
+    public static void main(String[] args){
+        double base, altura, area, perimetro;
+
+        Scanner imput=new Scanner(System.in);
+
+        System.out.println("Digite a altura");
+        altura=imput.nextDouble();
+        System.out.println("Digite a base");
+        base=imput.nextDouble();
+
+        // Calcular a area do retangulo
+        
+        area = base * altura;
+        System.out.println("A area é: " + area);
+        
+        // Calcular o perimetro do retangulo
+        perimetro = base + base + altura + altura;
+        System.out.println("O perimetro é:" + perimetro);
+    }
+}
