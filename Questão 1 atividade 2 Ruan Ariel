@@ -1,0 +1,29 @@
+
+import java.util.Scanner;
+
+public class calcule{
+    public static void main(String[] args){
+        Scanner calcule = new Scanner(System.in);
+        System.out.println("Olá Mundo!");
+        System.out.println("Digite o valor de X: ");
+        int X=calcule.nextInt();
+        System.out.println("Digite o valor de Y: ");
+        int Y=calcule.nextInt();
+
+        int maior;
+
+        if(X>Y){
+            maior = X;
+            System.out.println("Maior:"+ maior);
+        }else if (X<Y){
+            maior = Y;
+            System.out.println("Maior"+ maior);
+            calcule.close();
+        }
+
+
+
+
+
+    }
+}
