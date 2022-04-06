@@ -44,6 +44,13 @@ public static void main(String[] args) {
         System.out.println("Escolha o segundo elemento a ser invertido: ");
         b = input.nextLine(); //Input do segundo elemento
         
+        temp = a; //Aqui atribuimos o valor de "a" a variavel "temp"
+        a = b; //Aqui deletamos o valor atribuido anteriormente a "a", colocando o valor de b no lugar
+        b = temp; //Aqui pegamos o valor de "b" e deletando, colocando o valor de temp, variavel que tinha armazenado o valor de "a"
+        System.out.println("Resultados: ");
+        System.out.println("Primeiro valor: " + a);
+        System.out.println("Segundo valor: " + b);
+        
         // Calculadoraaa
 
         double a,b,end;
@@ -85,13 +92,6 @@ public static void main(String[] args) {
             break;
             
         }
-
-        temp = a; //Aqui atribuimos o valor de "a" a variavel "temp"
-        a = b; //Aqui deletamos o valor atribuido anteriormente a "a", colocando o valor de b no lugar
-        b = temp; //Aqui pegamos o valor de "b" e deletamos, colocando o valor de temp, variavel que tinha armazenado o valor de "a"
-        System.out.println("Resultados: ");
-        System.out.println("Primeiro valor: " + a);
-        System.out.println("Segundo valor: " + b);
         
         */
         }
